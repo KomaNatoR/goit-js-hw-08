@@ -23,7 +23,7 @@ const render = () => {
 };
 render();
 
-const galleryEl = new SimpleLightbox('.gallery a', {
+const galleryEl = new SimpleLightbox('.gallery__item', {
     captionsData: 'alt',
     captionDelay: 250,   
 });
